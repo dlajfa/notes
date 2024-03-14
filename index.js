@@ -43,7 +43,7 @@ let notes = [
 ];
 
 app.get("/", (request, response) => {
-  response.send(`<h1>Hello Node</h1>`);
+  response.send(`<h1>Notes</h1>`);
 });
 
 app.get("/api/notes", (request, response) => {
